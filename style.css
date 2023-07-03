@@ -1,0 +1,58 @@
+body {
+    background-image: url("img/one.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.user{
+    text-decoration: none;
+    color: black;
+}
+.carousel-cell{
+    width: 40%;
+}
+.card{
+    border-radius: 20px;
+}
+.carousel-cell img{
+    width: 100%;
+    border-radius: 15px;
+}
+.recent img{
+    border-radius: 10px;
+}
+.card{
+    margin-top: 2%;
+}
+.carousel-cell p, .recent p,.text-dark{
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.carousel a{
+    text-decoration: None;
+}
+@media screen and (max-width: 1320px) {
+    .col-lg-auto,.col-lg-3, .btn, a,.contact{
+        width: 100%;
+    }
+    .col-lg-4{
+        display: inline;
+        margin: 0 40%;
+    }
+    
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }

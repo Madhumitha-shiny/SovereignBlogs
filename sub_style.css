@@ -1,0 +1,45 @@
+body {
+    background-image: url("img/one.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 1320px) {
+    .col-lg-auto,.col-lg-3, .btn, a,.contact{
+        width: 100%;
+    }
+    .col-lg-4{
+        display: inline;
+        margin: 0 40%;
+    }
+}
+
+.container-fluid {
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.container p {
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.container .col {
+    margin: 1%;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px 5px lightblue;
+    transition: transform .2s;
+}
+
+.btn-primary:hover {
+    transform: scale(0.9);
+    transition: transform .2s;
+}

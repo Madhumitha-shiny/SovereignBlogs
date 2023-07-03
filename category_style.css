@@ -1,0 +1,33 @@
+body {
+    background-image: url("img/one.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.container p{
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.container .col{
+    margin: 1%;
+}
+@media screen and (max-width: 1320px) {
+    .col-lg-auto,.col-lg-3, .btn, a,.contact{
+        width: 100%;
+    }
+    .col-lg-4{
+        display: inline;
+        margin: 0 40%;
+    }
+}
